@@ -8,4 +8,4 @@ var cors_proxy = require('cors-anywhere');
 //   console.log('Running CORS Anywhere on ' + host + ':' + port);
 // });
 
-cors_proxy.createHttpServer();
+cors_proxy.createServer();
